@@ -1,10 +1,10 @@
 import React from 'react'
-import './Contact.css'
-import msg_icon from '../../assets/msg-icon.png'
-import mail_icon from '../../assets/mail-icon.png'
-import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
+import mail_icon from '../../assets/mail-icon.png'
+import msg_icon from '../../assets/msg-icon.png'
+import phone_icon from '../../assets/phone-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
+import './Contact.css'
 
 const Contact = () => {
 
@@ -40,11 +40,12 @@ const Contact = () => {
     <div className='contact'>
         <div className="contact-col">
             <h3>Send us a message <img src={msg_icon} alt="" /> </h3>
-            <p>Feel free to reach out through contact formor find our contact information below. Your feedback, questions, and suggesttions are important to us as we strive to provide exceptional service to our university community.</p>
+            <p>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggesttions are important to us as we strive to provide exceptional service to our university community.</p>
       <ul>
         <li><img src={mail_icon} alt="" /> Contact@chetan.mallah</li>
       <li> <img src={phone_icon} alt="" />+91 1800-244-3201</li>
-      <li> <img src={location_icon} alt="" />28 Ashford Roayl, Nahur <br/>400078, India</li>
+      <li> <img src={location_icon} alt="" />456 Oak Street, Springfield
+CA 12345, India</li>
       </ul>
         </div>
         <div className="contact-col">
